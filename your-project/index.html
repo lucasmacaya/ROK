@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>RoK Gear Planner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="topbar">
+        <h1>RoK Gear Planner</h1>
+        <div class="actions">
+            <label class="file-btn">
+        Import equipment.json
+        <input id="equipFile" type="file" accept="application/json" />
+      </label>
+            <label class="file-btn">
+        Import set-effects.json
+        <input id="setsFile" type="file" accept="application/json" />
+      </label>
+            <button id="loadDemo" class="ghost">Load demo</button>
+        </div>
+    </header>
+
+    <main class="grid">
+        <!-- LEFT SET -->
+        <section class="gear-col" id="set1-col">
+            <div class="gear-head">
+                <h2>Set 1</h2>
+                <div class="armament">
+                    <select id="arm1-formation"></select>
+                    <select id="arm1-troop"></select>
+                </div>
+            </div>
+            <div class="slots" id="slots-set1"></div>
+            <div class="stats-panel">
+                <button class="toggle" data-target="stats1">Show overall stats</button>
+                <div class="stats-body" id="stats1">
+                    <div class="kpis" id="kpi1"></div>
+                    <h4>Craft materials</h4>
+                    <div class="mats" id="mats1"></div>
+                    <h4>Iconic upgrade cost</h4>
+                    <div class="mats" id="iconic1"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LIBRARY -->
+        <section class="library-col">
+            <div class="filters">
+                <input id="search" placeholder="Equipment name..." />
+                <select id="filter-slot" title="Slot">
+          <option value="">All Slots</option>
+          <option>Helmet</option><option>Chest</option><option>Weapon</option>
+          <option>Gloves</option><option>Legs</option><option>Boots</option>
+          <option>Accessory</option>
+        </select>
+                <select id="filter-rarity" title="Rarity">
+          <option value="">All Rarities</option>
+          <option>legendary</option>
+          <option>epic</option>
+          <option>elite</option>
+        </select>
+                <select id="filter-set" title="Set">
+          <option value="">All Sets</option>
+        </select>
+            </div>
+            <div class="equip-grid" id="equip-grid"></div>
+        </section>
+
+        <!-- RIGHT SET -->
+        <section class="gear-col" id="set2-col">
+            <div class="gear-head">
+                <h2>Set 2</h2>
+                <div class="armament">
+                    <select id="arm2-formation"></select>
+                    <select id="arm2-troop"></select>
+                </div>
+            </div>
+            <div class="slots" id="slots-set2"></div>
+            <div class="stats-panel">
+                <button class="toggle" data-target="stats2">Show overall stats</button>
+                <div class="stats-body" id="stats2">
+                    <div class="kpis" id="kpi2"></div>
+                    <h4>Craft materials</h4>
+                    <div class="mats" id="mats2"></div>
+                    <h4>Iconic upgrade cost</h4>
+                    <div class="mats" id="iconic2"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="compare">
+        <button id="compareBtn">Compare Set 1 → Set 2</button>
+        <div id="compareBody" class="compare-body"></div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
