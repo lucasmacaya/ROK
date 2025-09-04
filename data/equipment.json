@@ -1,0 +1,296 @@
+[
+
+    {
+        "id": "eternal-codex",
+        "name": "Eternal Codex",
+        "attributes": [{ "stat": "Skill Damage", "value": 5 }],
+        "notes": "Static bonus (no proc)."
+    },
+    {
+        "id": "horn-of-fury",
+        "name": "Horn of Fury",
+        "attributes": [],
+        "notes": "Normal attacks have a 30% chance to grant +50 Rage."
+    },
+    {
+        "id": "wardrums-of-hell",
+        "name": "Wardrums of Hell",
+        "attributes": [],
+        "notes": "Attacks have a 10% chance to grant +50 Rage to up to 2 nearby allies (max 1 proc / 3s)."
+    },
+    {
+        "id": "ring-of-doom",
+        "name": "Ring of Doom",
+        "attributes": [],
+        "notes": "Normal attacks have a 10% chance to increase damage by 50% for 2s (max 1 proc / 5s)."
+    },
+
+
+    {
+        "id": "ash-of-dawn",
+        "name": "Ash of Dawn",
+        "attributes": [
+            { "stat": "Cavalry Health", "value": 12 },
+            { "stat": "Infantry Health", "value": 5 },
+            { "stat": "Commander EXP Gain", "value": 5 }
+        ]
+    },
+    {
+        "id": "conquerors-will",
+        "name": "Conqueror's Will",
+        "attributes": [
+            { "stat": "Infantry Defense", "value": 15 },
+            { "stat": "Cavalry Health", "value": 8 }
+        ]
+    },
+    {
+        "id": "eternal-night",
+        "name": "Eternal Night",
+        "attributes": [
+            { "stat": "Infantry Defense", "value": 12 },
+            { "stat": "Cavalry Defense", "value": 5 },
+            { "stat": "Archer Defense", "value": 5 }
+        ]
+    },
+    {
+        "id": "dominion",
+        "name": "Dominion",
+        "attributes": [
+            { "stat": "Cavalry Attack", "value": 25 },
+            { "stat": "Archer Defense", "value": 5 }
+        ]
+    },
+    {
+        "id": "hydrablast",
+        "name": "Hydrablast",
+        "attributes": [
+            { "stat": "Archer Defense", "value": 25 },
+            { "stat": "Cavalry Defense", "value": 5 }
+        ]
+    },
+    {
+        "id": "ians-choice",
+        "name": "Ian's Choice",
+        "attributes": [
+            { "stat": "Archer Attack", "value": 8 },
+            { "stat": "Commander EXP Gain", "value": 5 }
+        ]
+    },
+    {
+        "id": "khans-bow",
+        "name": "Khan's Bow",
+        "attributes": [
+            { "stat": "Cavalry Defense", "value": 15 },
+            { "stat": "Archer Health", "value": 8 }
+        ],
+        "notes": "Stats from Pride of the Khan (helm)."
+    },
+    {
+        "id": "milky-way",
+        "name": "Milky Way",
+        "attributes": [
+            { "stat": "Archer Health", "value": 12 },
+            { "stat": "Cavalry Health", "value": 6 },
+            { "stat": "Commander EXP Gain", "value": 5 }
+        ]
+    },
+    {
+        "id": "navars-control",
+        "name": "Navar's Control",
+        "attributes": [
+            { "stat": "Cavalry Health", "value": 8 },
+            { "stat": "Infantry Defense", "value": 5 }
+        ]
+    },
+    {
+        "id": "nightveil",
+        "name": "Nightveil",
+        "attributes": [
+            { "stat": "Archer Attack", "value": 15 },
+            { "stat": "Infantry Attack", "value": 8 }
+        ]
+    },
+    {
+        "id": "retribution",
+        "name": "Retribution",
+        "attributes": [
+            { "stat": "Cavalry Attack", "value": 12 },
+            { "stat": "Infantry Attack", "value": 5 },
+            { "stat": "Archer Attack", "value": 5 }
+        ]
+    },
+    {
+        "id": "sun-and-moon",
+        "name": "Sun and Moon",
+        "attributes": [
+            { "stat": "Infantry Attack", "value": 25 },
+            { "stat": "Archer Health", "value": 5 }
+        ]
+    },
+    {
+        "id": "hope",
+        "name": "Hope",
+        "attributes": [
+            { "stat": "Infantry Defense", "value": 12 },
+            { "stat": "Cavalry Defense", "value": 5 },
+            { "stat": "Archer Defense", "value": 5 }
+        ]
+    },
+    {
+        "id": "grips",
+        "name": "Grips of the Immortal",
+        "attributes": [
+            { "stat": "Infantry Defense", "value": 8 },
+            { "stat": "Archer Attack", "value": 5 }
+        ]
+    },
+
+
+    {
+        "id": "db-helmet",
+        "name": "Dragon's Breath Helm",
+        "attributes": [
+            { "stat": "Archer Attack", "value": 11 },
+            { "stat": "Cavalry Attack", "value": 3 },
+            { "stat": "Infantry Defense", "value": 4 }
+        ]
+    },
+    {
+        "id": "db-chest",
+        "name": "Dragon's Breath Armor",
+        "attributes": [
+            { "stat": "Archer Health", "value": 11 },
+            { "stat": "Cavalry Defense", "value": 5 }
+        ]
+    },
+    {
+        "id": "db-gloves",
+        "name": "Dragon's Breath Gauntlets",
+        "attributes": [
+            { "stat": "Archer Attack", "value": 7.5 },
+            { "stat": "Infantry Attack", "value": 3 }
+        ]
+    },
+    {
+        "id": "db-pants",
+        "name": "Dragon's Breath Pants",
+        "attributes": [
+            { "stat": "Archer Attack", "value": 11 },
+            { "stat": "Cavalry Attack", "value": 5 }
+        ]
+    },
+    {
+        "id": "db-boots",
+        "name": "Dragon's Breath Boots",
+        "attributes": [
+            { "stat": "Archer Defense", "value": 7.5 },
+            { "stat": "Infantry Defense", "value": 3 }
+        ]
+    },
+    {
+        "id": "db-weapon",
+        "name": "Dragon's Breath Sword",
+        "attributes": [
+            { "stat": "Archer Defense", "value": 20 },
+            { "stat": "Infantry Health", "value": 5 },
+            { "stat": "Cavalry Health", "value": 5 }
+        ],
+        "notes": "Using Bow stats for the set’s weapon."
+    },
+
+
+    {
+        "id": "ee-helmet",
+        "name": "Eternal Empire Helm",
+        "attributes": [
+            { "stat": "Infantry Defense", "value": 11 },
+            { "stat": "Archer Health", "value": 4 },
+            { "stat": "Cavalry Health", "value": 3 }
+        ]
+    },
+    {
+        "id": "ee-chest",
+        "name": "Eternal Empire Armor",
+        "attributes": [
+            { "stat": "Infantry Attack", "value": 11 },
+            { "stat": "Archer Defense", "value": 5 }
+        ]
+    },
+    {
+        "id": "ee-gloves",
+        "name": "Eternal Empire Gauntlets",
+        "attributes": [
+            { "stat": "Infantry Defense", "value": 7.5 },
+            { "stat": "Cavalry Attack", "value": 3 }
+        ]
+    },
+    {
+        "id": "ee-pants",
+        "name": "Eternal Empire Pants",
+        "attributes": [
+            { "stat": "Infantry Attack", "value": 11 },
+            { "stat": "Archer Defense", "value": 5 }
+        ]
+    },
+    {
+        "id": "ee-boots",
+        "name": "Eternal Empire Boots",
+        "attributes": [
+            { "stat": "Infantry Defense", "value": 7.5 },
+            { "stat": "Cavalry Defense", "value": 3 }
+        ]
+    },
+    {
+        "id": "ee-weapon",
+        "name": "Eternal Empire Sword",
+        "attributes": [
+            { "stat": "Infantry Attack", "value": 20 },
+            { "stat": "Archer Attack", "value": 5 },
+            { "stat": "Cavalry Attack", "value": 5 }
+        ]
+    },
+
+
+    {
+        "id": "hw-helmet",
+        "name": "Hope War Helm",
+        "attributes": [
+            { "stat": "Cavalry Defense", "value": 11 },
+            { "stat": "Infantry Attack", "value": 4 },
+            { "stat": "Archer Defense", "value": 3 }
+        ]
+    },
+    {
+        "id": "hw-chest",
+        "name": "Hope War Armor",
+        "attributes": [
+            { "stat": "Cavalry Health", "value": 11 },
+            { "stat": "Infantry Attack", "value": 5 }
+        ]
+    },
+    {
+        "id": "hw-boots",
+        "name": "Hope War Boots",
+        "attributes": [
+            { "stat": "Cavalry Health", "value": 7.5 },
+            { "stat": "Archer Attack", "value": 3 }
+        ]
+    },
+    {
+        "id": "hw-weapon",
+        "name": "Hope War Scepter",
+        "attributes": [
+            { "stat": "Cavalry Attack", "value": 20 },
+            { "stat": "Infantry Health", "value": 5 },
+            { "stat": "Archer Attack", "value": 5 }
+        ]
+    },
+
+
+    { "id": "gg-helmet", "name": "Glorious Greatness Helm", "attributes": [], "notes": "Stats not provided." },
+    { "id": "gg-chest", "name": "Glorious Greatness Armor", "attributes": [], "notes": "Stats not provided." },
+    { "id": "gg-gloves", "name": "Glorious Greatness Gauntlets", "attributes": [], "notes": "Stats not provided." },
+    { "id": "gg-pants", "name": "Glorious Greatness Pants", "attributes": [], "notes": "Stats not provided." },
+    { "id": "gg-boots", "name": "Glorious Greatness Boots", "attributes": [], "notes": "Stats not provided." },
+    { "id": "gg-weapon", "name": "Glorious Greatness Sword", "attributes": [], "notes": "Stats not provided." }
+]

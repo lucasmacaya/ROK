@@ -1,0 +1,25 @@
+[{
+        "set": "Eternal Empire",
+        "effects": [
+            { "pieces": 2, "stat": "Troop Defense", "value": 3 },
+            { "pieces": 4, "stat": "March Speed", "value": 10 },
+            { "pieces": 6, "stat": "Infantry Attack", "value": 5 }
+        ]
+    },
+    {
+        "set": "Dragon's Breath",
+        "effects": [
+            { "pieces": 2, "stat": "Troop Attack", "value": 3 },
+            { "pieces": 4, "stat": "Skill Damage", "value": 3 },
+            { "pieces": 6, "stat": "Archer Health", "value": 5 }
+        ]
+    },
+    {
+        "set": "Hope War",
+        "effects": [
+            { "pieces": 2, "stat": "Troop Health", "value": 3 },
+            { "pieces": 4, "stat": "Counterattack Damage", "value": 3 },
+            { "pieces": 6, "stat": "Cavalry Defense", "value": 5 }
+        ]
+    }
+]
